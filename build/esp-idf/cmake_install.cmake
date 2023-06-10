@@ -394,6 +394,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/cmake_install.cmake")
+  include("C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/cmake_install.cmake")
 endif()
 

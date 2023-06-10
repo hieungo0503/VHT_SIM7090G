@@ -1,4 +1,4 @@
-# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/My_Library/Sim7090G_Module
+# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/My_Library/Sim7090G_module
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

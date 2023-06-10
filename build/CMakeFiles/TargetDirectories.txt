@@ -594,10 +594,10 @@ C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/main/C
 C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/main/CMakeFiles/install.dir
 C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/main/CMakeFiles/install/local.dir
 C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/main/CMakeFiles/install/strip.dir
-C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/CMakeFiles/__idf_Sim7090G_Module.dir
-C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/CMakeFiles/edit_cache.dir
-C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/CMakeFiles/rebuild_cache.dir
-C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/CMakeFiles/list_install_components.dir
-C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/CMakeFiles/install.dir
-C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/CMakeFiles/install/local.dir
-C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_Module/CMakeFiles/install/strip.dir
+C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/CMakeFiles/__idf_Sim7090G_module.dir
+C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/CMakeFiles/edit_cache.dir
+C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/CMakeFiles/rebuild_cache.dir
+C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/CMakeFiles/list_install_components.dir
+C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/CMakeFiles/install.dir
+C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/CMakeFiles/install/local.dir
+C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/NB_iot_VHT/build/esp-idf/Sim7090G_module/CMakeFiles/install/strip.dir
