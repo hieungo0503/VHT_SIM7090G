@@ -65,6 +65,8 @@ void app_main(void)
 
 	bool first_time=true;
     while (true) {
+    	if(first_time == false) vTaskDelay(10000/portTICK_PERIOD_MS); //chờ 10s để module hoạt động ổn định sau khi Sleep
+
     	gpio_set_level(GPIO_NUM_4, 1); 	//Bật led lên để theo dõi
     	uint64_t time_start = esp_timer_get_time() / 1000 ;
 
@@ -86,11 +88,13 @@ void app_main(void)
     	if(flag_first_data_ok)
     	{
     		GNSS_Power_ON(2);	//Bật GNSS lên để lấy dữ liệu
-    		if(first_time){
-    			 vTaskDelay(90000/portTICK_PERIOD_MS);
+    		if(first_time)
+    		{
+    			 vTaskDelay(90000/portTICK_PERIOD_MS); //chờ 1p30s để GNSS hoạt động ổn định
     			 first_time=false;
-    						}
-    		vTaskDelay(5000/portTICK_PERIOD_MS);
+    		}
+    		else vTaskDelay(5000/portTICK_PERIOD_MS);	//Chờ 5s
+
     		if(get_latitude_longtitude(20)==true)	//Tiến hành lấy dữ liệu
     		{
     			flag_second_data_ok = true;
@@ -138,6 +142,5 @@ void app_main(void)
     	if(send_MQTT_success)Sleep_mode(1,GPIO_NUM_5, 2); //Sleep_mode ON
     	vTaskDelay(2*60000/portTICK_PERIOD_MS);
     	if(send_MQTT_success)Sleep_mode(0,GPIO_NUM_5, 2); //Sleep_mode OFF
-
 	}
 }
