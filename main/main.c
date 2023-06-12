@@ -65,7 +65,6 @@ void app_main(void)
 
 	bool first_time=true;
     while (true) {
-
     	uint64_t time_start = esp_timer_get_time() / 1000 ; //thời gian bắt đầu chạy
 
     	if(first_time == false) vTaskDelay(10000/portTICK_PERIOD_MS); //chờ 10s để module hoạt động ổn định sau khi Sleep
